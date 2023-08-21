@@ -1,0 +1,482 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+body{
+     background-color:#081518; 
+    color: #b6cbce;
+    font-family: 'Poppins', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    color: #ccf3cc;
+    font-weight: bold;
+}
+h1{
+    font-style: italic;
+}
+
+h2{
+    font-size: 33px;
+    
+}
+a{
+    text-decoration: none;
+    color: #1086aa;
+    transition: all .5s ease;
+}
+
+a:hover{
+    color: rgb(221, 149, 16);
+}
+
+img{
+    width: 100%;
+  
+}
+
+.pic{
+
+    width: 65% !important;
+    aspect-ratio: 3/4 !important;
+
+}
+
+.pic{
+    width: 250px;
+    height: 350px;
+       
+}
+
+.st{
+    font-style: italic;
+}
+
+.navbar span{
+    color: orange;
+    font-size: 45px;
+}
+.navbar p{
+    font-size: 35px;
+    font-style: italic;
+    
+}
+.navbar{
+    background-image: linear-gradient(to right, #45d4cb, #3fc9c5, #3abfbe, #37b4b7, #34aab0, #34aab0, #34aab0, #34aab0, #37b4b7, #3abfbe, #3fc9c5, #45d4cb); 
+
+}
+
+.height{
+    min-height:100vh;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top:70px ;
+    padding-bottom:70px ;
+    border-bottom: 2px solid rgb(239, 243, 242,0.1);
+}
+
+.w-text{
+    color: orange;
+}
+
+@media(min-width:992px){
+    .navbar{
+        min-height: 100vh;
+        width: 248px;
+        background-image: linear-gradient(to right, #45d4cb, #3fc9c5, #3abfbe, #37b4b7, #34aab0, #34aab0, #34aab0, #34aab0, #37b4b7, #3abfbe, #3fc9c5, #45d4cb); 
+    
+        background-size: cover;
+        background-position: center;
+    }
+
+    #content{
+        padding-left:248px;
+    }
+}
+
+h6{
+    font-weight: 500;
+}
+
+p{
+    color: #bbb;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+#form{
+    justify-content: center;
+    align-items: center;  
+    padding: 20px 30px;   
+}
+
+.button{
+    position: relative;
+    width: 210px;
+    min-height: 45px;
+    line-height: 38px;
+    overflow: hidden;
+    border: 1px solid orange;
+    font-size: 18px;
+    border-radius: 25px;
+    padding: 6px 9px;
+    color: #90b8be;
+    background-color: transparent;
+}
+
+.cv{
+    color: #835e0d;
+    font-weight: 600;
+}
+
+.button .cv{
+    font-size: 18px;
+}
+
+.button .arrow{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    height: 50px;
+    width: 50px;
+    border-radius: 35px;
+    background-color: orange;
+    color: #022a30;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.7s;
+}
+
+.button:hover .arrow{
+    width: 100%;
+    background-color: transparent;
+    color: transparent;
+}
+
+.navbar .nav-link{
+    font-weight: 600;
+    font-size: 21px;
+    color: #ffffff;
+}
+
+.navbar .nav-link:hover{
+    color: orange;
+}
+
+.card-custom{
+    background-color: #03323a;
+   
+}
+
+.card-custom-content {
+    padding: 5px 8px;
+}
+
+.shadow-effect{
+    transition: all 0.5s ;   
+}
+
+.shadow-effect:hover{
+    box-shadow: -6px 6px 5px 0 orange ;
+}
+
+.card-custom .card-custom-image{
+    overflow: hidden;
+   
+}
+.card-custom .card-custom-imageimg{
+    transition: all 0.3s ease;
+}
+
+.card-custom:hover .card-custom-image img{
+    transform: scale(1.1);
+}
+
+.icon i{
+    font-size: 35px;
+    display: inline-flex;
+    height: 40px;
+    width: 40px;
+    backdrop-filter: brightness(88%);
+    color: aqua;
+    border-radius:50%;
+    margin-right: 30px;
+    text-align: center;
+    justify-content: center;
+    box-shadow: 0 0 20px transparent;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+.icon i:hover{
+    transform:scale(1.2);
+    box-shadow: 0 0 12px 6px rgb(199, 132, 16);
+}
+
+.mh-skill .mh-professional-skill{
+   
+    color: whitesmoke;
+}
+
+.mh-professional-skill h3{
+    text-align: center;
+    line-height: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    
+}
+
+.mh-professional-progress li{
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    width: 45%;
+    float: none;
+    margin-bottom: 30px;
+}
+
+.mh-progress{
+    margin-bottom: 10px;
+    color: #8eb2b8;
+    font: 900 1.14285/1  cursive;
+}
+
+.mh-progress .progressbar-text{
+    color: inherit !important;
+}
+
+.mh-professional-skills h3{
+    text-align: center;
+    line-height: 10px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-top: 13px;
+}
+
+.progress .progress-line{
+    height: 5px;
+    margin-right: 50px;
+}
+
+.progress .progress-line .progress-text{
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    width: 60px;
+    text-align: center;
+    transform: translateY(-35%);
+    font-weight: 800;
+}
+
+.progress.progress-line:hover .progress-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 60px;
+    text-align: center;
+    transform: translateY(-35%);
+}
+
+.mh-progress.mh-progress-circle{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+.mh-progress path:nth-child(1){
+    stroke: rgba(0,0,0,0.8);
+}
+.mh-progress path:nth-child(2){
+    stroke:  #3dc0d1;
+}
+
+.candidates{
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.candidates .parcial{
+    width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.candidates .parcial .info{
+   position: relative;
+}
+
+.candidates .parcial .info .nome{
+   position: absolute;
+   font-weight: 400;
+   font-size: 16px;
+   top: 0;
+   left: 0;
+   opacity: 8.9;
+}
+
+.candidates .parcial .info .percentage-num{
+    position: absolute;
+    font-size: 15px;
+    top: 0;
+    right: 0;
+}
+
+.candidates .parcial .progressbar{
+    position: relative;
+    width: 100%;
+    height: 10px;
+    margin: 38px 0 2px;
+    background: #000 ; 
+    border-radius: 10px;
+}
+
+.candidates .parcial .percentage-width{
+    background:#3dc0d1;
+    border-radius: 10px;
+    top: 0;
+    left: 0;
+    height: 10px;
+    transition: 4s all;
+    animation-name: animationProgress;
+    position: absolute;
+}
+
+.precentual{
+    animation-name: animationProgress;
+}
+
+@keyframes animationProgress{
+    from{
+        width: 0;
+    }
+}
+
+#contact .form-control{
+    background-color: #8bced8;      
+    font-weight: 600;
+    border-color: #042627;
+    border-radius: 15px;
+    font-size: 18px;
+}
+
+#contact .form-control::placeholder{
+    color: #0c2c31;
+}
+
+.c-btn{
+    background-color:rgb(209, 144, 23);
+    border-color: #022a30;
+    color: #0c2c31;
+    font-weight: 600;
+    border-radius: 15px;
+    border: none;
+    font-size: 18px;
+    padding: 10px 22px;
+    font-weight: bold;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);  
+}
+
+.c-btn:hover{
+    box-shadow: 0 0 13px rgba(200, 216, 52, 0.5);
+}
+
+#contact input.form-control{
+    height: 45px;
+}
+
+.link-custom{
+    font-weight: 400;
+    font-size: 18px;
+    position: relative;
+    
+}
+
+.link-custom::after{
+    content: "";
+    height: 2px;
+    width: 0%;
+    position: absolute;
+    left: 0;
+    top: 90%;
+    background-color:orange;
+    transition: all 0.5s;
+}
+
+.link-custom:hover::after{
+    width: 110%;
+}
+
+.heading{
+    font-weight: 500;
+    
+    text-decoration: underline;
+    position: relative;
+}
+
+h2{
+    background: #140752;
+background: linear-gradient(to right, #140752 0%, #3DF2FF 50%, #14075C 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+   font-size: 42px;
+}
+
+.txt{
+    color: orange;
+}
+
+h3{
+    color: #5aaeb1;
+    
+}
+
+h1{
+    background: #30D9CD;
+background: linear-gradient(to right, #30D9CD 0%, #19DED1 50%, #30D9CD 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+h4{
+    color: #3fbce2;
+}
+
+h5{
+    color: #3fbce2;
+}
+
+h6{
+    color: #06729c;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.line{
+    text-decoration: underline;
+}
+
+.links i{
+   width: 36px;
+   height: 36px;
+   display: inline-flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 25px;
+   border-radius: 100px;
+   background-color: #a6c2c0;
+   color: #03575a;
+   font-weight: 600;
+   margin-right: 9px;
+   transition: all .5s ease;
+}
+
+.links i:hover{
+    color: orange;
+    transform:scale(1.2);
+   
+}
+
+footer{
+    background-color:#051113 ;
+}
